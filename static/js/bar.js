@@ -1,9 +1,14 @@
 const data = [
-  { name: 'OTU 1167', score: 80 }, 
-  { name: 'OTU 2859', score: 90 }, 
-  { name: 'OTU 482', score: 60 },
-  { name: 'OTU 2264', score: 60 }
-
+  { name: 'OTU 1167', score: 163 }, 
+  { name: 'OTU 2859', score: 126 }, 
+  { name: 'OTU 482', score: 113 },
+  { name: 'OTU 2264', score: 78 },
+  { name: 'OTU 41', score: 71 },
+  { name: 'OTU 1189', score: 51 },
+  { name: 'OTU 352', score: 50 },
+  { name: 'OTU 189', score: 47 },
+  { name: 'OTU 2318', score: 40 },
+  { name: 'OTU 1977', score: 40 }
 ];
 
 const width = 800;
@@ -22,7 +27,7 @@ const x = d3.scaleBand()
   .padding(0.1);
   
 const y = d3.scaleLinear()
-  .domain([0, 100])
+  .domain([0, 200])
   .range([height - margin.bottom, margin.top]);
 
 svg
@@ -38,9 +43,9 @@ svg
     .attr('class', 'rectangle')
 
 function xAxis(g){
-  g.attr('transform', 'translate(0, ${margin.bottom})')
+  g.attr('transform', 'translate(0, ${0, height - margin.bottom})')
   .call(d3.axisBottom(x).tickFormat(i => data[i].name))
-  .attr('font-size', '20px')
+  .attr('font-size', '12px')
 
 }
 
