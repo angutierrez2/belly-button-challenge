@@ -38,13 +38,11 @@
         <script src="bar.js"></script>
         <style>.rectangle:hover{opacity: 0.66;}</style>
       </div>
-      <div class="col-md-5">
-        <div id="gauge"></div>
-      </div>
-    </div>
+  </div>
     <div class="row">
       <div class="col-md-12">
-        <div id="bubble"></div>
+        <div id="chart"></div>
+        <script src="bubble.js"></script>
       </div>
     </div>
   </div>
