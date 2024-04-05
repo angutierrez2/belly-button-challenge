@@ -29,6 +29,13 @@
         <div class="card card-primary">
           <div class="card-header">
             <h4 class="card-title">Demographic Info</h4>
+            <h6 class="card-body">id: 940</h6>
+            <h6 class="card-body">ethnicity: Caucasian</h6>
+            <h6 class="card-body">gender: F</h6>
+            <h6 class="card-body">age: 24</h6>
+            <h6 class="card-body">location: Beaufort/NC</h6>
+            <h6 class="card-body">bbtype: I</h6>
+            <h6 class="card-body">wfreq: 2</h6>
           </div>
           <div id="sample-metadata" class="card-body"></div>
         </div>
@@ -38,14 +45,13 @@
         <script src="bar.js"></script>
         <style>.rectangle:hover{opacity: 0.66;}</style>
       </div>
-  </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="chart"></div>
-        <script src="bubble.js"></script>
+    </div>
+      <div class="row">
+        <div class="col-md-12">
+          <script src="./static/js/bubble.js"></script>
+        </div>
       </div>
     </div>
-  </div>
 
   <script src="./static/js/app.js"></script>
   <script src="./static/js/bonus.js"></script>
