@@ -18,4 +18,4 @@
     width: 600
     };
   
-  Plotly.newPlot("bubble", data, layout);
+  Plotly.newPlot("#bubble", data, layout);

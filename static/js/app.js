@@ -48,7 +48,9 @@
     </div>
       <div class="row">
         <div class="col-md-12">
+          <div class= "bubble">
           <script src="./static/js/bubble.js"></script>
+          </div>
         </div>
       </div>
     </div>
@@ -57,5 +59,4 @@
   <script src="./static/js/bonus.js"></script>
 
 </body>
-
 </html>
